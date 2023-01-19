@@ -1,5 +1,5 @@
 {
-  "name": "restaurant-mono",
+  "name": "neo-milugar",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -10,6 +10,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "storybook": "turbo run storybook",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
